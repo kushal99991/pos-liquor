@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+body {
+    background-image: url(../src/assets/images/pos-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Custom Scrollbar Styles */
+/* Webkit browsers (Chrome, Safari, Edge) */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #af1d39 rgba(0, 0, 0, 0.1);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #af1d39;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #8a162d;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+}
