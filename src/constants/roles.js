@@ -2,40 +2,35 @@
 const UserRole = {
   SUDO: "sudo",
   ADMIN: "admin",
-  HOUSEKEEPING: "housekeeping",
+  MANAGER: "manager",
+  CASHIER: "cashier",
   REPORTING: "reporting",
   ACCOUNTING: "accounting",
   STAFF: "staff",
-  DIRECTOR: "director",
 };
 
 // Role access mapping
 const RoleAccess = {
   "Dashboard": "dashboard",
-  "Reception List": "reception",
-  "Calendar": "calendar",
+  "Cash Register": "cash-register",
+  "Inventory": "inventory",
+  "Products": "products",
   "Access to Reports": "reports",
   "Super User Access": "Super User Access",
   "Admin Access": "Admin Access",
-  "New Booking": "front-access",
-  "Housekeeping Access": "house-keeping",
-  "Front and Back Office Access": "front-office",
-  "Front and Back Office Access With Override": "front",
+  "Backoffice Access": "backoffice",
   "Financial Access": "accounting",
 };
 
 // Default permissions list
 const defaultPermssionList = [
   "Dashboard",
-  "Reception List",
-  "Calendar",
+  "Cash Register",
+  "Inventory",
+  "Products",
   "Access to Reports",
-  "New Booking",
-  "Housekeeping Access",
-  "Front and Back Office Access",
-  "Front and Back Office Access With Override",
+  "Backoffice Access",
   "Financial Access",
-  "Arrival Report(Day)",
 ];
 
 export {
